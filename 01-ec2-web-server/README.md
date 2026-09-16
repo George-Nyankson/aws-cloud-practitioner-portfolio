@@ -254,6 +254,7 @@ If the web page cannot be reached:
 
 ## 📸 Screenshots
 
+
 Screenshots from the completed AWS lab will be added here.
 
 Planned screenshots include:
@@ -267,13 +268,6 @@ Planned screenshots include:
 7. Web server configuration
 8. Web application in browser
 
-Screenshots will be stored in:
-
-```text
-screenshots/
-```
-
----
 
 ## 🧠 Key Concepts Learned
 
