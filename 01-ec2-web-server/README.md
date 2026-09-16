@@ -255,19 +255,87 @@ If the web page cannot be reached:
 ## 📸 Screenshots
 
 
-Screenshots from the completed AWS lab will be added here.
+## 📸 Screenshots
 
-Planned screenshots include:
+The following screenshots provide visual evidence of the AWS infrastructure, configuration, server deployment, and successful web application access.
 
-1. VPC configuration
-2. Subnet configuration
-3. Security group rules
-4. EC2 instance configuration
-5. EC2 running state
-6. SSH connection
-7. Web server configuration
-8. Web application in browser
+### 1. VPC Configuration
 
+The VPC provides the isolated networking environment in which the EC2 web server was deployed.
+
+![VPC Details](screenshots/01-vpc-details.png)
+
+---
+
+### 2. Subnet Configuration
+
+The subnet provides the network segment within the VPC where the EC2 instance was deployed.
+
+![Subnet Details](screenshots/02-subnet-details.png)
+
+---
+
+### 3. Internet Gateway
+
+The Internet Gateway provides a path for communication between the VPC and the internet.
+
+![Internet Gateway](screenshots/03-internet-gateway.png)
+
+---
+
+### 4. Route Table
+
+The route table determines how traffic from the subnet is routed. The internet route allows the public-facing workload to communicate with the internet.
+
+![Route Table](screenshots/04-route-table.png)
+
+---
+
+### 5. Security Group Inbound Rules
+
+The security group controls inbound network traffic to the EC2 instance. The configured rules allow the traffic required for administration and web access.
+
+![Security Group](screenshots/05-security-group.png)
+
+---
+
+### 6. EC2 Instance Configuration
+
+This screenshot shows the deployed EC2 instance and its associated configuration, including the instance type, networking information, and public addressing.
+
+![EC2 Instance Details](screenshots/06-ec2-instance-details.png)
+
+---
+
+### 7. EC2 Running Status
+
+The EC2 instance is shown in a running state, confirming that the virtual server was successfully provisioned.
+
+![EC2 Running Status](screenshots/07-ec2-running-status.png)
+
+---
+
+### 8. SSH Connection
+
+The Linux server was accessed remotely using SSH, demonstrating successful administrative connectivity to the EC2 instance.
+
+![SSH Connection](screenshots/08-ssh-connection.png)
+
+---
+
+### 9. Web Server Configuration
+
+This screenshot provides evidence that the web server was configured and running on the EC2 instance.
+
+![Web Server Configuration](screenshots/09-web-server-configuration.png)
+
+---
+
+### 10. Website in Browser
+
+The final test confirms that the web application was successfully deployed and could be accessed through the EC2 instance's public endpoint.
+
+![Website in Browser](screenshots/10-website-browser.png)
 
 ## 🧠 Key Concepts Learned
 
