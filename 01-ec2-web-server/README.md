@@ -46,8 +46,6 @@ The main objectives of this project were to:
 
 ## 🏗️ Architecture
 
-🏗️ Architecture
-
 The following architecture illustrates how internet traffic reaches the EC2 web server through the AWS networking components configured for this project.
 
 flowchart TD
@@ -405,19 +403,46 @@ AWS manages the security of the underlying cloud infrastructure, while the custo
 
 ---
 
-## 💼 Professional Skills Demonstrated
 
-This project demonstrates practical exposure to:
+## 💼 Skills Demonstrated
 
-* Cloud infrastructure deployment
-* AWS resource configuration
-* Linux administration
-* Network configuration
-* Security configuration
-* Web server deployment
-* Cloud troubleshooting
+### AWS
+
+* Amazon EC2 provisioning
+* Amazon VPC configuration
+* Subnet configuration
+* Internet Gateway configuration
+* Route table configuration
+* Security Group configuration
+* Public IPv4 networking
+* EBS-backed EC2 storage
+* Cloud infrastructure troubleshooting
+
+### Linux
+
+* SSH remote administration
+* Linux server management
+* Web server configuration
+* Service management
+* Command-line troubleshooting
+
+### Networking
+
+* IPv4 addressing
+* Public subnet concepts
+* Internet routing
+* TCP/HTTP connectivity
+* Security group rules
+* Client-to-server communication
+
+### Professional Skills
+
 * Technical documentation
-* Infrastructure management
+* Infrastructure troubleshooting
+* Cloud architecture interpretation
+* Configuration validation
+* Problem solving
+
 
 ---
 
