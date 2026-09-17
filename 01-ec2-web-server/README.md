@@ -43,36 +43,49 @@ The main objectives of this project were to:
 
 ## 🏗️ Architecture
 
-The basic architecture for this project is:
+🏗️ Architecture
 
-```text
-                         Internet
-                            │
-                            ▼
-                    Internet Gateway
-                            │
-                            ▼
-                         Amazon VPC
-                            │
-                            ▼
-                      Public Subnet
-                            │
-                            ▼
-                     Security Group
-                            │
-                            ▼
-                       Amazon EC2
-                            │
-                            ▼
-                       Web Server
-                            │
-                            ▼
-                     Web Application
-```
+The following architecture illustrates how internet traffic reaches the EC2 web server through the AWS networking components configured for this project.
 
-The EC2 instance is deployed inside a VPC and public subnet. Internet connectivity is provided through an Internet Gateway, while the security group controls which network traffic can reach the instance.
+flowchart TD
+    A[Internet] --> B[Internet Gateway]
+    B --> C[AWS VPC]
+    C --> D[Public Subnet]
+    D --> E[Security Group]
+    E --> F[Amazon EC2]
+    F --> G[Web Server]
+    G --> H[Web Application]
+Architecture Components
+Component	Role
+Internet	Source of requests to the web application
+Internet Gateway	Provides connectivity between the VPC and the internet
+VPC	Provides the logical network environment
+Public Subnet	Hosts the internet-accessible EC2 instance
+Security Group	Controls inbound and outbound traffic
+Amazon EC2	Provides the virtual computing environment
+Web Server	Processes HTTP requests
+Web Application	Application delivered to the end user
+Request Flow
 
----
+A typical request follows this path:
+
+Internet
+   ↓
+Internet Gateway
+   ↓
+VPC
+   ↓
+Public Subnet
+   ↓
+Security Group
+   ↓
+EC2 Instance
+   ↓
+Web Server
+   ↓
+Web Application
+
+This architecture demonstrates the relationship between AWS networking, security, compute, and application delivery.
 
 ## 🔧 Implementation
 
