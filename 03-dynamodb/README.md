@@ -168,24 +168,20 @@ Database permissions should be restricted to the actions required by each user, 
 
 ## 📸 Screenshots
 
-Screenshots from the completed DynamoDB lab will be added here.
+### 1. DynamoDB Table
+![DynamoDB Table](screenshots/01-dynamodb-table.png)
 
-Planned evidence includes:
+### 2. Table Configuration
+![Table Configuration](screenshots/02-table-configuration.png)
 
-1. DynamoDB table creation
-2. Table configuration
-3. Added items
-4. Query results
-5. Table deletion
+### 3. DynamoDB Items
+![DynamoDB Items](screenshots/03-dynamodb-items.png)
 
-Screenshots will be stored in:
+### 4. Query Results
+![Query Results](screenshots/04-query-results.png)
 
-```text
-screenshots/
-```
-
----
-
+### 5. Table Deletion
+![Table Deletion](screenshots/05-table-deletion.png)
 ## 🧠 Key Concepts Learned
 
 This project strengthened my understanding of:
