@@ -276,7 +276,7 @@ The following screenshots provide visual evidence of the AWS infrastructure, con
 
 The VPC provides the isolated networking environment in which the EC2 web server was deployed.
 
-![VPC Details](01-vpc-details.png)
+![VPC Details](screenshots/01-vpc-details.png)
 
 ---
 
@@ -292,7 +292,7 @@ The subnet provides the network segment within the VPC where the EC2 instance wa
 
 The Internet Gateway provides a path for communication between the VPC and the internet.
 
-![Internet Gateway](01-vpc-details.png)
+![Internet Gateway](screenshots/01-vpc-details.png)
 
 ---
 
