@@ -284,7 +284,7 @@ The VPC provides the isolated networking environment in which the EC2 web server
 
 The subnet provides the network segment within the VPC where the EC2 instance was deployed.
 
-![Subnet Details](01-subnet-details.png)
+![Subnet Details](screenshots/01-subnet-details.png)
 
 ---
 
