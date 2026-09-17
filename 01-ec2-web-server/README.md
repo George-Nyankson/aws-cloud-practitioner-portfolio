@@ -1,6 +1,9 @@
 # Amazon EC2 Web Server Deployment
+> AWS Cloud Practitioner Portfolio Project  
+> Hands-on deployment of a public-facing web server using Amazon EC2, Amazon VPC, security groups, and an Internet Gateway.
 
 ## 📌 Project Overview
+
 
 This project demonstrates the deployment of a web server on Amazon Web Services (AWS) using an Amazon EC2 instance.
 
