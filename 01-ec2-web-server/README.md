@@ -284,7 +284,7 @@ The VPC provides the isolated networking environment in which the EC2 web server
 
 The subnet provides the network segment within the VPC where the EC2 instance was deployed.
 
-![Subnet Details](screenshots/01-subnet-details.png)
+![Subnet Details](screenshots/02-subnet-details.png)
 
 ---
 
@@ -292,7 +292,7 @@ The subnet provides the network segment within the VPC where the EC2 instance wa
 
 The Internet Gateway provides a path for communication between the VPC and the internet.
 
-![Internet Gateway](screenshots/01-vpc-details.png)
+![Internet Gateway](screenshots/03-internet-gateway-details.png)
 
 ---
 
