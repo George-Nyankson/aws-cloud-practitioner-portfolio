@@ -269,7 +269,6 @@ If the web page cannot be reached:
 ## 📸 Screenshots
 
 
-## 📸 Screenshots
 
 The following screenshots provide visual evidence of the AWS infrastructure, configuration, server deployment, and successful web application access.
 
@@ -277,7 +276,7 @@ The following screenshots provide visual evidence of the AWS infrastructure, con
 
 The VPC provides the isolated networking environment in which the EC2 web server was deployed.
 
-![VPC Details](screenshots/01-vpc-details.png)
+![VPC Details](01-vpc-details.png)
 
 ---
 
@@ -285,7 +284,7 @@ The VPC provides the isolated networking environment in which the EC2 web server
 
 The subnet provides the network segment within the VPC where the EC2 instance was deployed.
 
-![Subnet Details](screenshots/02-subnet-details.png)
+![Subnet Details](01-vpc-details.png)
 
 ---
 
@@ -293,7 +292,7 @@ The subnet provides the network segment within the VPC where the EC2 instance wa
 
 The Internet Gateway provides a path for communication between the VPC and the internet.
 
-![Internet Gateway](screenshots/03-internet-gateway.png)
+![Internet Gateway](01-vpc-details.png)
 
 ---
 
