@@ -284,7 +284,7 @@ The VPC provides the isolated networking environment in which the EC2 web server
 
 The subnet provides the network segment within the VPC where the EC2 instance was deployed.
 
-![Subnet Details](01-vpc-details.png)
+![Subnet Details](01-subnet-details.png)
 
 ---
 
@@ -332,7 +332,7 @@ The EC2 instance is shown in a running state, confirming that the virtual server
 
 The Linux server was accessed remotely using SSH, demonstrating successful administrative connectivity to the EC2 instance.
 
-![SSH Connection](screenshots/08-ssh-connection.png)
+![SSH Connection](screenshots/08-ssh-connection.png.png)
 
 ---
 
@@ -340,7 +340,7 @@ The Linux server was accessed remotely using SSH, demonstrating successful admin
 
 This screenshot provides evidence that the web server was configured and running on the EC2 instance.
 
-![Web Server Configuration](screenshots/09-web-server-configuration.png)
+![Web Server Configuration](screenshots/09-web-server-configuration.png.png)
 
 ---
 
@@ -348,7 +348,7 @@ This screenshot provides evidence that the web server was configured and running
 
 The final test confirms that the web application was successfully deployed and could be accessed through the EC2 instance's public endpoint.
 
-![Website in Browser](screenshots/10-website-browser.png)
+![Website in Browser](screenshots/10-website-browser.png.png)
 
 ## 🧠 Key Concepts Learned
 
