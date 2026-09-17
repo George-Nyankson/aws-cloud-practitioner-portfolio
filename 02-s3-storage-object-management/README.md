@@ -177,26 +177,72 @@ For production workloads, access should generally be restricted unless public di
 
 ## 📸 Screenshots
 
-Screenshots from the completed AWS lab will be added here.
+## 📸 Screenshots
 
-Planned evidence includes:
+The following screenshots provide evidence of the S3 bucket creation, object management, access configuration, browser testing, and AWS CLI operations completed during the project.
 
-1. S3 bucket creation
-2. S3 bucket contents
-3. Uploaded object
-4. Initial browser access attempt
-5. Object access configuration
-6. Successful browser access
-7. AWS CLI bucket listing
-8. AWS CLI object listing
+### 1. S3 Bucket
 
-Screenshots will be stored in:
+The S3 bucket was successfully created and configured as the storage container for the project object.
 
-```text
-screenshots/
-```
+![S3 Bucket](screenshots/01-s3-bucket.png)
 
 ---
+
+### 2. Bucket Contents
+
+The bucket contents show the object stored within Amazon S3.
+
+![Bucket Contents](screenshots/02-bucket-contents.png)
+
+---
+
+### 3. Uploaded Object
+
+This screenshot provides evidence that the required file was successfully uploaded as an S3 object.
+
+![Uploaded Object](screenshots/03-uploaded-object.png)
+
+---
+
+### 4. Initial Browser Access
+
+The initial browser test demonstrates the access state of the object before the required access configuration was completed.
+
+![Initial Browser Access](screenshots/04-initial-browser-access.png)
+
+---
+
+### 5. Object Access Configuration
+
+This screenshot shows the access configuration applied to the S3 object as required by the lab.
+
+![Object Access Configuration](screenshots/05-object-access-configuration.png)
+
+---
+
+### 6. Successful Browser Access
+
+After the required configuration, the object was successfully accessed through a web browser.
+
+![Successful Browser Access](screenshots/06-successful-browser-access.png)
+
+---
+
+### 7. AWS CLI Bucket Listing
+
+The AWS CLI was used to list the S3 buckets available to the authenticated AWS identity.
+
+![AWS CLI Bucket Listing](screenshots/07-cli-bucket-listing.png)
+
+---
+
+### 8. AWS CLI Object Listing
+
+The AWS CLI was used to list the objects stored in the project bucket.
+
+![AWS CLI Object Listing](screenshots/08-cli-object-listing.png)
+
 
 ## 🧠 Key Concepts Learned
 
