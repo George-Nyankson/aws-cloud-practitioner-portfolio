@@ -292,7 +292,7 @@ The subnet provides the network segment within the VPC where the EC2 instance wa
 
 The Internet Gateway provides a path for communication between the VPC and the internet.
 
-![Internet Gateway](screenshots/03-internet-gateway-details.png)
+![Internet Gateway](screenshots/03-internet-gateway.png)
 
 ---
 
