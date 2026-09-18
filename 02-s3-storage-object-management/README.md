@@ -114,7 +114,7 @@ The object's URL was opened in a web browser after the required access configura
 
 Successful access confirmed that the object could be retrieved through the configured endpoint.
 
----
+https://tabora-sda.s3.us-west-2.amazonaws.com/tabora-sda-church-1.html
 
 ## 💻 AWS CLI
 
@@ -177,7 +177,6 @@ For production workloads, access should generally be restricted unless public di
 
 ## 📸 Screenshots
 
-## 📸 Screenshots
 
 The following screenshots provide evidence of the S3 bucket creation, object management, access configuration, browser testing, and AWS CLI operations completed during the project.
 
@@ -219,7 +218,7 @@ This screenshot shows the access configuration applied to the S3 object as requi
 
 ![Object Access Configuration](screenshots/05-object-access-configuration.png)
 
----
+
 
 ### 6. Successful Browser Access
 
@@ -227,7 +226,7 @@ After the required configuration, the object was successfully accessed through a
 
 ![Successful Browser Access](screenshots/06-successful-browser-access.png)
 
----
+https://tabora-sda.s3.us-west-2.amazonaws.com/tabora-sda-church-1.html
 
 ### 7. AWS CLI Bucket Listing
 
