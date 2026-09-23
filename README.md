@@ -8,7 +8,6 @@ This portfolio documents my journey in building, configuring, managing, and trou
 
 My broader professional interests include cloud computing, data analytics, and administration, with a focus on applying technology to solve practical business and operational problems.
 
----
 
 ## ☁️ AWS Skills Demonstrated
 
@@ -29,7 +28,6 @@ My broader professional interests include cloud computing, data analytics, and a
 * Database Connectivity
 * Infrastructure Troubleshooting
 
----
 
 ## 🛠️ Tools and Technologies
 
@@ -46,7 +44,6 @@ My broader professional interests include cloud computing, data analytics, and a
 | Command Line           | AWS CLI, Linux                                         |
 | Version Control        | Git and GitHub                                         |
 
----
 
 # 📂 Portfolio Projects
 
